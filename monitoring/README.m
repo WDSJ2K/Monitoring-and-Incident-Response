@@ -1,12 +1,21 @@
-# Monitoring Configuration & Baselines
+# Network Monitoring & Incident Response
 
-This directory contains documentation and artifacts related to network monitoring setup.
+## Overview
+This repository demonstrates foundational Network Operations Center (NOC) workflows, including network monitoring, alert detection, incident response, and service restoration validation.
 
-## Contents
-- Monitoring configuration notes
-- Baseline performance observations
-- Alert threshold definitions
-- Monitoring dashboard screenshots
+## Objectives
+- Monitor network availability and performance
+- Detect and respond to network incidents
+- Practice structured incident handling
+- Validate service restoration after remediation
 
-## Purpose
-These files demonstrate how network availability and performance are monitored in a NOC environment.
+## Tools & Concepts
+- Network monitoring fundamentals (SNMP concepts)
+- Alert thresholds and baselines
+- Incident documentation and validation
+
+## Repository Structure
+- `/diagrams` — Network topology diagrams
+- `/monitoring` — Monitoring configuration and baselines
+- `/incidents` — Simulated incident reports and response steps
+- `/evidence` — Screenshots and validation artifacts
