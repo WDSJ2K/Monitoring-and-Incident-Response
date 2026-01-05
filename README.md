@@ -1,21 +1,36 @@
-# Network Monitoring & Incident Response
+# William Spencer — Networking & NOC Engineering Portfolio 🔐
 
-## Overview
-This repository demonstrates foundational Network Operations Center (NOC) workflows, including network monitoring, alert detection, incident response, and service restoration validation.
+This repository documents hands-on networking labs focused on **Network Operations Center (NOC)** fundamentals, including monitoring, incident response, and Layer 1–3 troubleshooting.
 
-## Objectives
-- Monitor network availability and performance
-- Detect and respond to network incidents
-- Practice structured incident handling
-- Validate service restoration after remediation
+The work simulates **small enterprise network environments** and emphasizes operational tasks such as fault isolation, service restoration, and validation using Cisco IOS–based devices. Concepts align with **CCNA-level networking objectives**.
 
-## Tools & Concepts
-- Network monitoring fundamentals (SNMP concepts)
-- Alert thresholds and baselines
-- Incident documentation and validation
+---
 
-## Repository Structure
-- `/diagrams` — Network topology diagrams
-- `/monitoring` — Monitoring configuration and baselines
-- `/incidents` — Simulated incident reports and response steps
-- `/evidence` — Screenshots and validation artifacts
+## 📁 Repository Structure
+
+- **Incidents/**  
+  Incident-style documentation describing network issues, troubleshooting steps, resolution actions, and validation results.
+
+- **Evidence/**  
+  Supporting artifacts such as command output, screenshots, and logs used to validate findings and confirm resolution.
+
+- **monitoring/**  
+  Baseline documentation and reference checks used for network status verification.
+
+- **diagrams/**  
+  Simple network diagrams used to illustrate lab topology and device relationships.
+
+---
+
+## 🎯 Focus Areas
+
+- Network monitoring and alert validation  
+- Incident response and troubleshooting  
+- Cisco IOS device operations  
+- Connectivity testing and service restoration  
+
+---
+
+## 📌 Career Alignment
+
+This portfolio supports entry-level **NOC Technician**, **Network Support**, and **Junior Network Technician** roles.
