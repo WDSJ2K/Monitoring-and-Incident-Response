@@ -1,4 +1,3 @@
-
 RouterXxX#show startup-config
 Using 744 bytes
 !
