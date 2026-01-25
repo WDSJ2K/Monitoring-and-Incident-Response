@@ -1,0 +1,170 @@
+LAB: IOS Initial Configuration + Validation
+TOPOLOGY: R1 <-> SW1 <-> R2
+LINKS:
+- SW1 Fa0/1 <-> R1 Fa0/0
+- SW1 Fa0/2 <-> R2 Fa0/0
+
+========================
+1) Hostnames
+========================
+R1:
+enable
+conf t
+hostname R1
+end
+
+R2:
+enable
+conf t
+hostname R2
+end
+
+SW1:
+enable
+conf t
+hostname SW1
+end
+
+========================
+2) IP Addressing
+========================
+R1 Fa0/0:
+enable
+conf t
+interface f0/0
+ ip address 10.10.10.1 255.255.255.0
+ no shutdown
+end
+
+R2 Fa0/0:
+enable
+conf t
+interface f0/0
+ ip address 10.10.10.2 255.255.255.0
+ no shutdown
+end
+
+========================
+3) SW1 Management SVI + Default Gateway
+========================
+SW1 VLAN 1 SVI:
+enable
+conf t
+interface vlan 1
+ ip address 10.10.10.10 255.255.255.0
+ no shutdown
+exit
+
+SW1 default gateway:
+ip default-gateway 10.10.10.2
+end
+
+Verify ping:
+ping 10.10.10.2
+
+========================
+4) Interface Descriptions
+========================
+SW1:
+conf t
+interface f0/1
+ description Link to R1 Fa0/0
+exit
+interface f0/2
+ description Link to R2 Fa0/0
+end
+
+R1:
+conf t
+interface f0/0
+ description Link to SW1 Fa0/1
+end
+
+R2:
+conf t
+interface f0/0
+ description Link to SW1 Fa0/2
+end
+
+========================
+5) CDP Verification + Hardening
+========================
+Verify neighbors:
+show cdp neighbors
+
+Disable CDP toward R1 (SW1 Fa0/1):
+conf t
+interface f0/1
+ no cdp enable
+end
+
+Flush CDP cache on R1 (lab requirement):
+conf t
+no cdp run
+cdp run
+end
+
+Verify neighbors again:
+show cdp neighbors
+
+========================
+6) Interface Troubleshooting (Shutdown Test)
+========================
+R2 shutdown/no shutdown (Fa0/0):
+conf t
+interface f0/0
+ shutdown
+end
+
+show ip interface brief
+
+conf t
+interface f0/0
+ no shutdown
+end
+
+show ip interface brief
+
+========================
+7) Duplex/Speed Mismatch Testing (SW1 Fa0/2)
+========================
+Set duplex half:
+conf t
+interface f0/2
+ duplex half
+end
+
+show ip interface brief
+
+Restore duplex full:
+conf t
+interface f0/2
+ duplex full
+end
+
+show ip interface brief
+
+Set speed 10:
+conf t
+interface f0/2
+ speed 10
+end
+
+show ip interface brief
+
+Restore speed 100:
+conf t
+interface f0/2
+ speed 100
+end
+
+show ip interface brief
+
+========================
+8) Quick Verification Commands
+========================
+show ip interface brief
+show interfaces status
+show cdp neighbors
+show version
+copy running-config startup-config
