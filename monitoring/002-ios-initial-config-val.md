@@ -10,7 +10,7 @@ Bring up a small Cisco topology (R1–SW1–R2) by assigning IP addressing and s
 
   ## Commands
 📄 **Full command log:**  
-[002 – IOS Initial Configuration + Validation](../Evidence/002-ios-initial-config-val.txt)
+[002 – IOS Initial Configuration + Validation](../Evidence/002-ios-initial-config-val-commds.txt)
 
 ## Addressing
 - R1 Fa0/0: `10.10.10.1/24`
