@@ -4,7 +4,7 @@
 Bring up a small Cisco topology (R1–SW1–R2) by assigning IP addressing and switch management access, then validate connectivity, CDP neighbors, and interface behavior during shutdown + duplex/speed mismatch testing.
 
 ## Topology
-![Topology](../diagrams/diagram-001-topology.png)
+![Topology](../diagrams/monitoring-001-topology.png)
 - SW1 Fa0/1 ↔ R1 Fa0/0
 - SW1 Fa0/2 ↔ R2 Fa0/0
 
