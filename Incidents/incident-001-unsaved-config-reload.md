@@ -21,5 +21,5 @@ Copied the running configuration to the startup configuration to ensure persiste
 Reloaded the device and verified that the hostname and static host entries were present after startup.
 
 ## Evidence
-- [show running-config](..Evidence/001-show-running-config.txt)
-- [show startup-config](..Evidence/001-show-startup-config.txt)
+[001-show-running-config.txt](Monitoring-and-Incident-Response/Evidence/001-show-running-config.txt)
+[001-show-startup-config.txt](Monitoring-and-Incident-Response/Evidence/001-show-startup-config.txt)
