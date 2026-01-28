@@ -1,4 +1,3 @@
-Incident — 001
 ## Title: Configuration Lost After Device Reload Due to Unsaved Running Configuration
 
 ## Summary
@@ -22,5 +21,5 @@ Copied the running configuration to the startup configuration to ensure persiste
 Reloaded the device and verified that the hostname and static host entries were present after startup.
 
 ## Evidence
-- Evidence/show-running-config.txt
-- Evidence/show-startup-config.txt
+- [show running-config](evidence/001-show-running-config.txt)
+- [show startup-config](evidence/001-show-startup-config.txt)
