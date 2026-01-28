@@ -1,4 +1,4 @@
-## Title: Configuration Lost After Device Reload Due to Unsaved Running Configuration
+## Configuration Lost After Device Reload Due to Unsaved Running Configuration
 
 ## Summary
 Router configuration changes (hostname and static host entries) existed in the running configuration but were not present in the startup configuration, resulting in configuration loss after a device reload.
