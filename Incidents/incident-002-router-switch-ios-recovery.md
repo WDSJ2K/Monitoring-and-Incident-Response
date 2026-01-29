@@ -30,8 +30,8 @@ Confirm hostname + interface config exist before reset
 Erase configuration, reboot, exit setup wizard, confirm configs are empty.
 
 ### Evidence
-- [baseline-after-reset.txt](../Evidence/baseline-after-reset.txt)
-- [show-startup-config.txt](../Evidence/show-startup-config.txt)
+- [baseline-after-reset.txt](../Evidence/incident-002-baseline-after-reset.txt)
+- [show-startup-config.txt](../Evidence/incident-002-show-startup-config.txt)
 
 ---
 
