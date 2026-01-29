@@ -13,12 +13,9 @@ NOC-style walkthrough covering factory reset, config persistence, password recov
 - Router LAN: 10.10.10.0/24 (R1 G0/0 = 10.10.10.1)
 
 ---
-
 ## Topology
 ![Topology](../diagrams/incident-002-topology.png)
-
 ---
-
 ## Step 1: Pre-Reset Configuration Check
 ### Goal
 Confirm hostname + interface config exist before reset
@@ -28,7 +25,6 @@ Confirm hostname + interface config exist before reset
 
 ### Evidence
 - [show-running-config.txt](../Evidence/incident-002-show-running-config.txt)
-
 ---
 
 
