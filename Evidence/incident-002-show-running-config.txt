@@ -1,23 +1,17 @@
-R1#show running-config 
+Router>en
+Router#show run
 Building configuration...
 
-Current configuration : 696 bytes
+Current configuration : 703 bytes
 !
 version 15.1
 no service timestamps log datetime msec
 no service timestamps debug datetime msec
 no service password-encryption
 !
-hostname R1
-!
-!
-!
-!
-!
-!
-!
-!
-ip cef
-no ipv6 cef
-!
-!	
+hostname Router
+interface GigabitEthernet0/0
+ ip address 10.10.10.1 255.255.255.0
+ duplex auto
+ speed auto
+
