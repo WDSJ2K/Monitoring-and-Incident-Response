@@ -12,7 +12,9 @@ The work simulates **small enterprise network environments** and emphasizes oper
   Incident-style documentation describing network issues, troubleshooting steps, resolution actions, and validation results.
 
 - **Evidence/**  
-  Supporting artifacts such as command output, screenshots, and logs used to validate findings and confirm resolution.
+  This directory contains command outputs and validation artifacts supporting documented monitoring activities and incident response scenarios.
+Artifacts are organized by incident & monitoring number for traceability.
+
 
 - **monitoring/**  
   Baseline documentation and reference checks used for network status verification.
