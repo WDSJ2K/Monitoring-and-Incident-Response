@@ -15,7 +15,7 @@ NOC-style walkthrough covering factory reset, config persistence, password recov
 ---
 
 ## Topology
-![Topology](../Evidence/incident-002-topology.png)
+![Topology](../diagrams/incident-002-topology.png)
 
 ---
 
