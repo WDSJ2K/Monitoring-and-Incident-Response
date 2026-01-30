@@ -25,7 +25,7 @@ Confirm hostname + interface config exist before reset
 ### Evidence
 - [show-running-config.txt](../Evidence/incident-002-show-running-config.txt)
 ---
-## Step 2 (Q2–Q4): Factory Reset + Baseline Verification
+## Step 2 : Factory Reset + Baseline Verification
 ### Goal
 Erase configuration, reboot, exit setup wizard, confirm configs are empty.
 
