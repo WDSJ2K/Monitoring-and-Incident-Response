@@ -52,12 +52,12 @@ Paste baseline config and save to startup-config.
 
 ---
 
-## Step 4 (Q6): Set Enable Secret + Save
+## Step 4 : Set Enable Secret + Save
 ### Goal
 Configure enable secret and save.
 
 ### Evidence
-- [enable-secret-set.txt](../Evidence/enable-secret-set.txt)
+- [enable-secret-set.txt](../Evidence/incident-002-enable-secret-set.txt)
 
 ---
 
