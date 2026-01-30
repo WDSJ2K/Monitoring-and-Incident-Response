@@ -1,0 +1,4 @@
+
+Router#show start
+startup-config is not present
+Router#
