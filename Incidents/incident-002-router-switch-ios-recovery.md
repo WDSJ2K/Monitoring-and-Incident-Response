@@ -48,7 +48,7 @@ Paste baseline config and save to startup-config.
 - `copy running-config startup-config`
 
 ### Evidence
-- [config-restore.txt](../Evidence/config-restore.txt)
+- [config-restore.txt](../Evidence/incident-002-config-restore.txt)
 
 ---
 
