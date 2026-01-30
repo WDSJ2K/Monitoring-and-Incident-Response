@@ -2,7 +2,7 @@
 
 ## Overview
 
-NOC-style walkthrough covering factory reset, config persistence, password recovery, config + IOS backups, ROMMON IOS recovery (TFTP), and switch IOS upgrade. Evidence files are linked under each step.
+Operational lab simulating device failure, access loss, and system recovery procedures.Emphasis is placed on recovery workflows, configuration integrity, and post-reload validation
 
 ---
 ## Environment
@@ -61,19 +61,11 @@ Configure enable secret and save.
 
 ---
 
-## Step 5 (Q7–Q16): Password Recovery Workflow
+## Step 5 : Device Recovery Workflow
 ### Goal
 Boot ignoring startup-config, restore config to running, remove enable secret, return to normal boot, verify.
 
 ### Evidence
-- [rommon-confreg-0242.txt](../Evidence/rommon-confreg-0242.txt)
-- [expected-running-startup.txt](../Evidence/expected-running-startup.txt)
-- [restore-startup-to-running.txt](../Evidence/restore-startup-to-running.txt)
-- [g0-0-down.txt](../Evidence/g0-0-down.txt)
-- [g0-0-up.txt](../Evidence/g0-0-up.txt)
-- [remove-enable-secret.txt](../Evidence/remove-enable-secret.txt)
-- [config-register-02102.txt](../Evidence/config-register-02102.txt)
-- [post-reload-verify.txt](../Evidence/post-reload-verify.txt)
 
 ---
 
