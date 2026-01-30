@@ -35,7 +35,7 @@ Erase configuration, reboot, exit setup wizard, confirm configs are empty.
 
 ---
 
-## Step 3 (Q5): Configuration Restore + Save to NVRAM
+## Step 3 : Configuration Restore + Save to NVRAM
 ### Goal
 Paste baseline config and save to startup-config.
 
