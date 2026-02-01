@@ -1,0 +1,29 @@
+WDSJ2K#copy run start
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+WDSJ2K#
+WDSJ2K#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+WDSJ2K(config)#config-register 0x2120
+WDSJ2K(config)#exit
+WDSJ2K#
+%SYS-5-CONFIG_I: Configured from console by console
+reload
+System configuration has been modified. Save? [yes/no]:yes
+Building configuration...
+[OK]
+
+Proceed with reload? [confirm]
+System Bootstrap, Version 15.1(4)M4, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 2010 by cisco Systems, Inc.
+Total memory size = 512 MB - On-board = 512 MB, DIMM0 = 0 MB
+CISCO2911/K9 platform with 524288 Kbytes of main memory
+Main memory is configured to 72/-1(On-board/DIMM0) bit mode with ECC disabled
+
+Readonly ROMMON initialized
+
+rommon 1 > confreg 0x2142
+rommon 2 > reset
+
