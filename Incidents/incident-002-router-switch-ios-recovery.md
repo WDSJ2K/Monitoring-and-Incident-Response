@@ -64,7 +64,8 @@ Configure enable secret and save.
 ## Step 5 : Device Recovery Workflow
 ### Goal
 Boot ignoring startup-config, restore config to running, remove enable secret, return to normal boot, verify.
-
+### Observation: 
+Router booted with default running configuration because config-register was set to ignore startup-config (0x2142). Startup configuration remained intact in NVRAM.
 ### Evidence
 
 ---
