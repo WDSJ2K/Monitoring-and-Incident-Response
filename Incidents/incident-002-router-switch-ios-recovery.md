@@ -73,6 +73,8 @@ Router booted with default running configuration because config-register was set
 
 [incident-002-boot-ignoring-startup-config.txt](../Evidence/incident-002-boot-ignoring-startup-config.txt)
 
+[incident-002-reload-&-verification.txt](../Evidence/incident-002-reload-&-verification.txt)
+
 
 ---
 
