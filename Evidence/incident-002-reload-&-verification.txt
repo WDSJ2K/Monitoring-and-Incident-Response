@@ -1,0 +1,25 @@
+
+==Reload & Verification==
+
+reload
+show run
+show ip interface brief
+
+
+
+
+WDSJ2K(config)#exit
+WDSJ2K#
+%SYS-5-CONFIG_I: Configured from console by console
+reload
+System configuration has been modified. Save? [yes/no]:yes
+Building configuration...
+[OK]
+Proceed with reload? [confirm]
+
+
+
+
+WDSJ2K>show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+GigabitEthernet0/0     10.10.10.1      YES NVRAM  up                    up 
