@@ -69,11 +69,11 @@ Router booted with default running configuration because config-register was set
 
 ### Evidence
 
-[Config-register change + ROMMON boot](../Evidence/incident-002-config-register-change-and-rommon-boot.txt)
+[config-register change + ROMMON boot](../Evidence/incident-002-config-register-change-and-rommon-boot.txt)
 
-[incident-002-boot-ignoring-startup-config.txt](../Evidence/incident-002-boot-ignoring-startup-config.txt)
+[boot-ignoring-startup-config.txt](../Evidence/incident-002-boot-ignoring-startup-config.txt)
 
-[incident-002-reload-&-verification.txt](../Evidence/incident-002-reload-&-verification.txt)
+[reload-&-verification.txt](../Evidence/incident-002-reload-&-verification.txt)
 
 
 ---
