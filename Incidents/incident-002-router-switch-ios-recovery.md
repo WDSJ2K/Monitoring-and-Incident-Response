@@ -66,9 +66,14 @@ Configure enable secret and save.
 Boot ignoring startup-config, restore config to running, remove enable secret, return to normal boot, verify.
 ### Observation: 
 Router booted with default running configuration because config-register was set to ignore startup-config (0x2142). Startup configuration remained intact in NVRAM.
+
 ### Evidence
 
 [Config-register change + ROMMON boot](../Evidence/incident-002-config-register-change-and-rommon-boot.txt)
+
+[incident-002-boot-ignoring-startup-config.txt](../Evidence/incident-002-boot-ignoring-startup-config.txt)
+
+
 ---
 
 ## Step 6 (Q17–Q19): Backup Running/Startup Config + IOS Image
