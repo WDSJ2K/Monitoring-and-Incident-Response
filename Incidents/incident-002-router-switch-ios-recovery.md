@@ -86,7 +86,7 @@ Back up configs and IOS before destructive actions.
 
 - [running-config-to-flash.txt](../Evidence/incident-002-running-config-to-flash.txt)
   
-- [startup-config-to-tftp.txt](../Evidence/startup-config-to-tftp.txt)
+- [startup-config-to-tftp.txt](../Evidence/incident-002-startup-config-to-tftp.txt)
   
 - [ios-image-to-tftp.txt](../Evidence/ios-image-to-tftp.txt)
 
