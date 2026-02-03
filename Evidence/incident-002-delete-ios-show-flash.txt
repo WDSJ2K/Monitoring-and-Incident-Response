@@ -1,0 +1,35 @@
+========================================================
+=== DELETE IOS IMAGE FROM FLASH ===
+========================================================
+
+WDSJ2K#show flash
+
+System flash directory:
+File  Length   Name/status
+  9   703      Backup-1
+  7   33591768 c2900-universalk9-mz.SPA.151-4.M4.bin
+  8   703      running-config
+
+--------------------------------------------------------
+
+WDSJ2K#delete flash:c2900-universalk9-mz.SPA.151-4.M4.bin
+Delete filename [c2900-universalk9-mz.SPA.151-4.M4.bin]?
+Delete flash:/c2900-universalk9-mz.SPA.151-4.M4.bin? [confirm]
+
+--------------------------------------------------------
+
+WDSJ2K#show flash
+
+System flash directory:
+File  Length   Name/status
+  9   703      Backup-1
+  8   703      running-config
+
+Verification Result:
+✔ IOS image successfully deleted from flash  
+✔ Only Backup-1 and running-config remain  
+✔ Flash space restored  
+
+========================================================
+END FLASH CLEANUP VERIFICATION
+========================================================
