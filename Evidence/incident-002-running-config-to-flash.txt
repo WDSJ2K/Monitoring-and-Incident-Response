@@ -1,0 +1,23 @@
+========================================================
+=== BACKUP RUNNING-CONFIG TO FLASH ===
+========================================================
+
+WDSJ2K#copy run flash
+Destination filename [running-config]? Backup-1
+Building configuration...
+[OK]
+
+WDSJ2K#show flash
+
+System flash directory:
+File  Length      Name/status
+  9   703         Backup-1
+  7   33591768    c2900-universalk9-mz.SPA.151-4.M4.bin
+
+Verification Result:
+✔ Running-config successfully saved to flash  
+✔ File "Backup-1" confirmed present in flash  
+
+========================================================
+END BACKUP VERIFICATION
+========================================================
