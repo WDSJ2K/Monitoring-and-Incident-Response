@@ -88,7 +88,7 @@ Back up configs and IOS before destructive actions.
   
 - [startup-config-to-tftp.txt](../Evidence/incident-002-startup-config-to-tftp.txt)
   
-- [ios-image-to-tftp.txt](../Evidence/diagram-002-ios-image-to-tftp.png)
+- [ios-image-to-tftp.png](../Evidence/diagram-002-ios-image-to-tftp.png)
 
 ---
 
