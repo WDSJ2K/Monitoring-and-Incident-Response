@@ -97,7 +97,7 @@ Back up configs and IOS before destructive actions.
 Delete IOS, enter ROMMON, set variables, recover IOS from TFTP, verify.
 
 ### Evidence
-- [delete-ios-show-flash.txt](../Evidence/delete-ios-show-flash.txt)
+- [delete-ios-show-flash.txt](../Evidence/incident-002-delete-ios-show-flash.txt)
 - [rommon-variables.txt](../Evidence/rommon-variables.txt)
 - [router-ios-recovered-show-version.txt](../Evidence/router-ios-recovered-show-version.txt)
 
