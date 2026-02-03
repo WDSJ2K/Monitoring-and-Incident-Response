@@ -1,0 +1,20 @@
+========================================================
+=== BACKUP STARTUP-CONFIG TO TFTP ===
+========================================================
+
+WDSJ2K#copy start tftp
+Address or name of remote host []? 10.10.10.10
+Destination filename [WDSJ2K-confg]? Backup-2
+
+Writing startup-config....!!
+[OK - 703 bytes]
+
+703 bytes copied in 3.098 secs (226 bytes/sec)
+
+Verification Result:
+✔ Startup-config successfully transferred to TFTP server  
+✔ File saved as "Backup-2" on 10.10.10.10  
+
+========================================================
+END TFTP BACKUP VERIFICATION
+========================================================
