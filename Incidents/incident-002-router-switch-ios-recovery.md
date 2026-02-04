@@ -99,7 +99,7 @@ Delete IOS, enter ROMMON, set variables, recover IOS from TFTP, verify.
 ### Evidence
 - [delete-ios-show-flash.txt](../Evidence/incident-002-delete-ios-show-flash.txt)
 - [rommon-variables-ios-recovery.txt](../Evidence/incident-002-ios-recovery-essential-evidence.txt)
-- [router-ios-recovered-show-version.txt](../Evidence/router-ios-recovered-show-version.txt)
+- [router-ios-recovered-show-version.txt](../Evidence/incident-002-router-ios-recovered-show-version.txt)
 
 ---
 
