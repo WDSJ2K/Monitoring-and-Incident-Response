@@ -1,17 +1,30 @@
-Router>en
-Router#show run
-Building configuration...
+========================================================
+=== POST-RELOAD CONFIGURATION CHECK ===
+========================================================
 
-Current configuration : 703 bytes
-!
-version 15.1
-no service timestamps log datetime msec
-no service timestamps debug datetime msec
-no service password-encryption
-!
-hostname Router
-interface GigabitEthernet0/0
- ip address 10.10.10.1 255.255.255.0
- duplex auto
- speed auto
+Router>enable
+Router#show running-config
+
+Current configuration: 703 bytes
+
+Key Output:
+- Hostname: Router
+- Interface GigabitEthernet0/0:
+  - IP address: 10.10.10.1/24
+  - Duplex: auto
+  - Speed: auto
+
+--------------------------------------------------------
+
+Observation:
+- Router booted with default hostname "Router"
+- Configuration size present, but startup-config hostname (WDSJ2K) not applied
+
+Implication:
+- Confirms device booted without loading expected startup-config
+- Consistent with misconfigured config-register behavior
+
+========================================================
+END CONFIGURATION VERIFICATION
+========================================================
 
