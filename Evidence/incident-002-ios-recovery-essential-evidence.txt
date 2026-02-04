@@ -1,0 +1,47 @@
+========================================================
+=== ROMMON IOS RECOVERY – ESSENTIAL EVIDENCE ===
+========================================================
+
+rommon > tftpdnld
+IP_ADDRESS=10.10.10.1
+IP_SUBNET_MASK=255.255.255.0
+DEFAULT_GATEWAY=10.10.10.1
+TFTP_SERVER=10.10.10.10
+TFTP_FILE=c2900-universalk9-mz.SPA.151-4.M4.bin
+tftpdnld
+
+--------------------------------------------------------
+
+rommon > dir flash:
+
+33591768 bytes (0x20091d8)  0x93d8  
+c2900-universalk9-mz.SPA.151-4.M4.bin
+
+Result:
+✔ IOS image successfully written to flash  
+✔ File size correct (~33.6MB)
+
+--------------------------------------------------------
+
+rommon > reset
+
+IOS Image Load Test … [OK]
+Self decompressing the image … [OK]
+
+Cisco IOS Software, C2900-UNIVERSALK9-M  
+Version 15.1(4)M5
+
+Device details:
+- CISCO2911/K9
+- 3 Gigabit Ethernet interfaces
+- 255K NVRAM  
+- 249856K CompactFlash  
+
+Final Result:
+✔ Router exited ROMMON  
+✔ IOS booted successfully from flash  
+✔ Console returned to normal operation
+
+========================================================
+END ROMMON RECOVERY VERIFICATION
+========================================================
