@@ -1,0 +1,31 @@
+========================================================
+=== SWITCH POST-BOOT VERIFICATION (SW1) ===
+========================================================
+
+SW1>show version
+
+Cisco IOS Software, C2960-LANBASEK9-M  
+Version 15.0(2)SE4, RELEASE SOFTWARE (fc1)
+
+BOOTLDR: C2960-HBOOT-M 12.2(25r)FX (fc4)
+
+Uptime: ~39 minutes  
+Last reload: power-on  
+System image: flash:c2960-lanbasek9-mz.150-2.SE4.bin  
+
+Hardware:
+- Model: WS-C2960-24TT-L  
+- 24 FastEthernet + 2 GigabitEthernet ports  
+- 64K NVRAM (simulated)  
+- MAC: 00:30:F2:E1:CD:DB  
+
+Config-register: 0xF
+
+Verification Result:
+✔ Switch booted normally into IOS  
+✔ Correct image loaded from flash  
+✔ Hardware and uptime look healthy  
+
+========================================================
+END SWITCH VERIFICATION
+========================================================
