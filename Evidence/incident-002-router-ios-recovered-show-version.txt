@@ -1,0 +1,34 @@
+========================================================
+=== POST-RECOVERY VERIFICATION (FLASH + VERSION) ===
+========================================================
+
+WDSJ2K>show flash
+
+System flash directory:
+File  Length      Name/status
+ 10   33591768    c2900-universalk9-mz.SPA.151-4.M4.bin
+
+Result:
+✔ IOS image present in flash  
+✔ File size (~33.6MB) confirms successful download  
+
+--------------------------------------------------------
+
+WDSJ2K>show version
+
+Cisco IOS Software, C2900-UNIVERSALK9-M  
+Version 15.1(4)M4, RELEASE SOFTWARE (fc2)
+
+ROM: System Bootstrap, Version 15.1(4)M4 (fc1)
+Uptime: ~9 minutes  
+Last reload: Normal Reload  
+System image: flash0:c2900-universalk9-mz.SPA.151-1.M4.bin  
+
+Verification Result:
+✔ Router booted normally into IOS  
+✔ ROMMON recovery succeeded  
+✔ Device operating from flash image  
+
+========================================================
+END FINAL VERIFICATION
+========================================================
