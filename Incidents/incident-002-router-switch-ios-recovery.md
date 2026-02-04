@@ -108,7 +108,7 @@ Delete IOS, enter ROMMON, set variables, recover IOS from TFTP, verify.
 Verify old switch IOS, upgrade via TFTP, reload, verify new IOS.
 
 ### Evidence
-- [switch-old-show-version.txt](../Evidence/switch-old-show-version.txt)
+- [switch-old-show-version.txt](../Evidence/incident-002-switch-old-show-version.txt)
 - [switch-copy-ios-from-tftp.txt](../Evidence/switch-copy-ios-from-tftp.txt)
 - [switch-new-show-version.txt](../Evidence/switch-new-show-version.txt)
 
