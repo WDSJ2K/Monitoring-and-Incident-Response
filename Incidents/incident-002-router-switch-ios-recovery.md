@@ -78,7 +78,7 @@ Router booted with default running configuration because config-register was set
 
 ---
 
-## Step 6 (Q17–Q19): Backup Running/Startup Config + IOS Image
+## Step 6 : Backup Running/Startup Config + IOS Image
 ### Goal
 Back up configs and IOS before destructive actions.
 
@@ -92,7 +92,7 @@ Back up configs and IOS before destructive actions.
 
 ---
 
-## Step 7 (Q20–Q21): Delete IOS + ROMMON Recovery (TFTP)
+## Step 7 : Delete IOS + ROMMON Recovery (TFTP)
 ### Goal
 Delete IOS, enter ROMMON, set variables, recover IOS from TFTP, verify.
 
@@ -103,7 +103,7 @@ Delete IOS, enter ROMMON, set variables, recover IOS from TFTP, verify.
 
 ---
 
-## Step 8 (Q22–Q24): Switch IOS Upgrade + Verification
+## Step 8 : Switch IOS Upgrade + Verification
 ### Goal
 Verify old switch IOS, upgrade via TFTP, reload, verify new IOS.
 
