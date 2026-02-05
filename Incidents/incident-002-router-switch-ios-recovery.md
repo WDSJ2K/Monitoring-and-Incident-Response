@@ -110,7 +110,7 @@ Verify old switch IOS, upgrade via TFTP, reload, verify new IOS.
 ### Evidence
 - [switch-old-show-version.txt](../Evidence/incident-002-switch-old-show-version.txt)
 - [switch-copy-ios-from-tftp.txt](../Evidence/incident-002-switch-copy-ios-from-tftp.txt)
-- [switch-new-show-version.txt](../Evidence/switch-new-show-version.txt)
+- [switch-new-show-version.txt](../Evidence/incident-002-switch-new-show-version.txt)
 
 ---
 
