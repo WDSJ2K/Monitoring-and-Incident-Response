@@ -1,0 +1,35 @@
+========================================================
+=== SWITCH IOS BACKUP FROM TFTP (SW1) ===
+========================================================
+
+SW1#copy tftp flash
+Address or name of remote host []? 10.10.10.10
+Source filename []? c2960-lanbasek9-mz.150-2.SE4.bin
+Destination filename [c2960-lanbasek9-mz.150-2.SE4.bin]?
+
+Accessing tftp://10.10.10.10/c2960-lanbasek9-mz.150-2.SE4.bin....
+Loading c2960-lanbasek9-mz.150-2.SE4.bin from 10.10.10.10: !!!!!!!!
+[OK - 4670455 bytes]
+
+4670455 bytes copied in 3.161 secs (118787 bytes/sec)
+
+--------------------------------------------------------
+
+SW1#show flash
+
+Directory of flash:/
+
+  1  c2960-lanbase-mz.122-25.FX.bin  
+  3  c2960-lanbasek9-mz.150-2.SE4.bin  
+  2  config.text  
+
+--------------------------------------------------------
+
+Verification Result:
+✔ IOS image successfully copied from TFTP to flash  
+✔ Correct file (150-2.SE4) confirmed present in flash  
+✔ Existing images preserved  
+
+========================================================
+END SWITCH TFTP BACKUP VERIFICATION
+========================================================
